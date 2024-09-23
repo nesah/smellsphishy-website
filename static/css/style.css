@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;  
+}
+
+.page-size {
+    height: 100vh;
+    background-color: #DA0037;
+    margin: 0;     /* Ensure no margin */
+}
+
+/*******************nav-logo******************/
+#nav-logo {
+    width: 20%;
+}
+
+/*******************landing-section******************/
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    height: 85vh;
+}
+
+#text h1 {
+    font-size: 92px;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+#text p {
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*******************about-section******************/
+.about {
+    background-color: #EDEDED;
+    height: 100vh;
+}
+
+.about h2{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1A1A1A;
+}
+
+.about-container {
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-content {
+    width: 50%;
+    height: 100%;
+}
+
+#logo-img {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+#logo-img img{
+    width: 80%;
+    height: auto;
+}
+
+.desc {
+    color: #1A1A1A;
+    font-size: 21.5px;
+    width: 100%;
+    height: fit-content;
+    padding-left: 15px;
+}
+
+.desc-content {
+    height: 85%;
+    width: 80%;
+}
+
+#chips {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.chip {
+    width: fit-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DA0037;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.chip p {
+    font-size: 20px;
+    color: #EDEDED;
+    font-weight: bold;
+}
+/*******************feature-section******************/
+.features {
+    background-color: #EDEDED
+}
+
+.features h2 {
+    height: 13%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: #1A1A1A;
+    
+}
+
+.feature-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2%;
+    flex-direction: column;
+}
+
+.subtitle {
+    width: 82%;  
+}
+
+.subtitle p {
+    font-size: 21px;
+    color: #1A1A1A;
+    text-align: center;
+}
+
+.spec-features {
+    width: 82%;
+    height: 40%;
+    background-color: #DA0037;
+    margin: 20px 0 20px 0;
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #DA0037;
+    border-radius: 20px;
+}
+
+/*******************feature-section******************/
+.contact-us {
+    background-color: #444444;
+    height: 50vh;
+}
