@@ -1,2 +1,2 @@
 # smellsphishy-website
- Website for SMELLSPHISHY Tool. HTML/CSS with Python,
+ Website for SMELLSPHISHY Tool. HTML/CSS with Python Flask.
