@@ -14,14 +14,26 @@ body {
 }
 
 .page-size {
-    height: 100vh;
+    height: 110vh;
     background-color: #DA0037;
     margin: 0;     /* Ensure no margin */
 }
 
 /*******************nav-logo******************/
-#nav-logo {
-    width: 20%;
+.navbar {
+    background-color: #1A1A1A;
+}
+
+.navbar-brand {
+    margin-left: 80px;
+}
+
+#navbarNav {
+    margin-right: 80px;
+}
+.nav-item a{
+    color: #EDEDED;
+    font-weight: 600;
 }
 
 /*******************landing-section******************/
@@ -60,6 +72,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #1A1A1A;
+    margin-top: 2%;
 }
 
 .about-container {
@@ -236,6 +249,9 @@ body {
 
 .back-top {
     margin-bottom:40px;
+}
+
+.back-top a{
     color: #EDEDED;
 }
 
