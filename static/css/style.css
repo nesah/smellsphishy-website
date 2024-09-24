@@ -25,6 +25,9 @@ body {
 }
 
 /*******************landing-section******************/
+.landing {
+    background-image: linear-gradient(#DA0037, #DA0037, #E3708D, #EDEDED);
+}
 #text {
     display: flex;
     flex-direction: column;
@@ -95,19 +98,21 @@ body {
 .desc-content {
     height: 85%;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #chips {
-    height: auto;
+    height: 8%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
 }
 
 .chip {
     width: fit-content;
-    height: 40px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,15 +166,79 @@ body {
     background-color: #DA0037;
     margin: 20px 0 20px 0;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .card{
     background-color: #DA0037;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+
+.card h1 {
+    width: 60%;
+    margin: 0;
+    font-size: 130px;
+    font-weight: bold;
+    color: #EDEDED;
+}
+
+.card h3 {
+    width: 60%; 
+    margin: 0;
+    font-weight: bold;
+    color: #EDEDED;
+}
+
+.card p {
+    width: 60%;
+    color: #EDEDED;
 }
 
 /*******************feature-section******************/
 .contact-us {
     background-color: #444444;
     height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-logo-img {
+    height: fit-content;
+    width: fit-content;
+    padding: 0 55px 5px 55px;
+    background-color: #EDEDED;
+    border-radius: 8px;
+    margin-bottom:40px;
+    margin-top: 40px;
+}
+
+.contact-logo-img img {
+     width: 200px;
+}
+
+.github-repo {
+    margin-bottom:20px;
+}
+
+.back-top {
+    margin-bottom:40px;
+    color: #EDEDED;
+}
+
+.copyrights {
+    color: rgb(237, 237, 237, .7);
 }
