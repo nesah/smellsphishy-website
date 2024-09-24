@@ -8,6 +8,11 @@ body {
     margin: 0;  
 }
 
+.body-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .page-size {
     height: 100vh;
     background-color: #DA0037;
