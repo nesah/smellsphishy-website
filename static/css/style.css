@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #DA0037;
+    --secondary-color: #EDEDED;
+    --text-color: #1A1A1A;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +17,7 @@ body {
 
 .container-fluid {
     padding: 0;
-    margin: 0;  
+    margin: 0;
 }
 
 .body-content {
@@ -15,13 +27,13 @@ body {
 
 .page-size {
     height: 110vh;
-    background-color: #DA0037;
+    background-color: var(--primary-color);
     margin: 0;     /* Ensure no margin */
 }
 
 /*******************nav-logo******************/
 .navbar {
-    background-color: #1A1A1A;
+    background-color: rgba(26, 26, 26, 0.5); /* Semi-transparent background */
 }
 
 .navbar-brand {
@@ -38,8 +50,11 @@ body {
 
 /*******************landing-section******************/
 .landing {
-    background-image: linear-gradient(#DA0037, #DA0037, #E3708D, #EDEDED);
+    background-image: linear-gradient(#DA0037, #DA0037, #E3708D, #EDEDED); /* Gradient background */
+    margin-top: -65px;
+    height: calc(100vh + 65px);
 }
+
 #text {
     display: flex;
     flex-direction: column;
@@ -47,32 +62,39 @@ body {
     justify-content: center;
     color: #FFFFFF;
     height: 85vh;
+    margin-top: 65px;
 }
 
 #text h1 {
-    font-size: 92px;
+    font-size: 100px;
     padding: 1rem 1rem 0.5rem 1rem;
 }
 
 #text p {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     padding: 1rem;
+}
+
+.btn{
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
 }
 
 /*******************about-section******************/
 .about {
     background-color: #EDEDED;
     height: 100vh;
+    padding-top: 120px;
 }
 
 .about h2{
-    height: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #1A1A1A;
-    margin-top: 2%;
+    font-size: 2.5rem;
+    color: #222f3e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    width: 100%;
 }
 
 .about-container {
@@ -102,7 +124,7 @@ body {
 
 .desc {
     color: #1A1A1A;
-    font-size: 21.5px;
+    font-size: 24px;
     width: 100%;
     height: fit-content;
     padding-left: 15px;
@@ -125,33 +147,42 @@ body {
 
 .chip {
     width: fit-content;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #DA0037;
     border-radius: 10px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 40px;
 }
 
 .chip p {
     font-size: 20px;
     color: #EDEDED;
     font-weight: bold;
+    margin-top: 14px;
 }
 /*******************feature-section******************/
 .features {
-    background-color: #EDEDED
+    background-color: #EDEDED;
+    padding-top: 120px;
 }
 
 .features h2 {
+    font-size: 2.5rem;
+    color: #222f3e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/* .features h2 {
     height: 13%;
     display: flex;
     align-items: end;
     justify-content: center;
     color: #1A1A1A;
-    
-}
+
+} */
 
 .feature-container {
     width: 100%;
@@ -159,12 +190,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-top: 2%;
+    /* margin-top: 8%; */
     flex-direction: column;
 }
 
 .subtitle {
-    width: 82%;  
+    width: 82%;
 }
 
 .subtitle p {
@@ -202,7 +233,7 @@ body {
 }
 
 .card h3 {
-    width: 60%; 
+    width: 60%;
     margin: 0;
     font-weight: bold;
     color: #EDEDED;
@@ -213,7 +244,7 @@ body {
     color: #EDEDED;
 }
 
-/*******************feature-section******************/
+/*******************contact-section******************/
 .contact-us {
     background-color: #444444;
     height: 50vh;
@@ -247,6 +278,11 @@ body {
     margin-bottom:20px;
 }
 
+.fa-github{
+    color: #fff;
+    font-size: 40px;
+}
+
 .back-top {
     margin-bottom:40px;
 }
@@ -258,3 +294,101 @@ body {
 .copyrights {
     color: rgb(237, 237, 237, .7);
 }
+
+/*******************how-to-use******************/
+.howtouse {
+    padding: 120px 0;
+    background-color: #EDEDED;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.howtouse .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -40px;
+}
+
+.howtouse .card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px auto;
+}
+
+/* .howtouse .card-body{
+    height: 230px;
+} */
+.howtouse .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.howtouse .card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #fbe4df;
+    margin: 24px auto 0 auto;
+}
+
+.howtouse .card-icon-img {
+    width: 50%;
+    height: 50%;
+}
+
+.howtouse .card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #222f3e;
+}
+
+.howtouse .card-text {
+    font-size: 18px;
+    color: #576574;
+}
+
+.howtouse h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222f3e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.howtouse .card .card-title,
+.howtouse .card .card-text {
+    /* text-align: center; */
+    width: 100%;
+}
+
+@media (min-width: 1400px) {
+    .row {
+        max-width: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .howtouse .card-title {
+        font-size: 1.6rem;
+    }
+
+    .howtouse .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+

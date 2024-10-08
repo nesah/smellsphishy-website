@@ -1,0 +1,20 @@
+SMELLSPHISHY Browser Extension User Guide
+
+Manual Detection
+Install the SMELLSPHISHY browser extension 
+Activate the SMELLSPHISHY browser extension from the extension store 
+Pin the SMELLSPHISHY browser extension for easy access 
+Toggle the switch to activate SMELLSPHISHY browser extension. 
+Type or paste the URL you want to check into the provided text box. 
+The extension will tell you if the URL is safe or a phishing threat. 
+
+
+Automatic Detection
+Manual Detection
+Install the SMELLSPHISHY browser extension 
+Activate the SMELLSPHISHY browser extension from the extension store 
+Pin the SMELLSPHISHY browser extension for easy access 
+Toggle the switch to activate SMELLSPHISHY browser extension. 
+The extension would automatically detect the urls in the address bar
+The extension will tell you if the URL is safe or a phishing threat. 
+
