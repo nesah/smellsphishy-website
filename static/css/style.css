@@ -160,29 +160,7 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*******************feature-section******************/
+/*******************FEATURES******************/
 .features-div{
     background-color: #EDEDED;
     min-height: 100vh;
@@ -195,120 +173,8 @@ h1{
     color: #222f3e;
 }
 
-
-.feature-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: column;
-}
-
-.subtitle {
-    width: 82%;
-}
-
-.subtitle p {
-    font-size: 21px;
-    color: #1A1A1A;
-    text-align: center;
-}
-
-.spec-features {
-    width: 82%;
-    height: 40%;
+.features-container{
+    color: white;
     background-color: #DA0037;
-    margin: 20px 0 20px 0;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
 }
-
-.card{
-    background-color: #DA0037;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
-}
-
-.card h1 {
-    width: 60%;
-    margin: 0;
-    font-size: 130px;
-    font-weight: bold;
-    color: #EDEDED;
-}
-
-.card h3 {
-    width: 60%;
-    margin: 0;
-    font-weight: bold;
-    color: #EDEDED;
-}
-
-.card p {
-    width: 60%;
-    color: #EDEDED;
-}
-
-/*******************contact-section******************/
-.contact-us {
-    background-color: #444444;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-logo-img {
-    height: fit-content;
-    width: fit-content;
-    padding: 0 55px 5px 55px;
-    background-color: #EDEDED;
-    border-radius: 8px;
-    margin-bottom:40px;
-    margin-top: 40px;
-}
-
-.contact-logo-img img {
-     width: 200px;
-}
-
-.github-repo {
-    margin-bottom:20px;
-}
-
-.fa-github{
-    color: #fff;
-    font-size: 40px;
-}
-
-.back-top {
-    margin-bottom:40px;
-}
-
-.back-top a{
-    color: #EDEDED;
-}
-
-.copyrights {
-    color: rgb(237, 237, 237, .7);
-}
-
-/*******************how-to-use******************/
-
-
-
-
-
+/*******************FEATURES******************/
