@@ -132,11 +132,13 @@ h1{
     height: 160px;
     border-radius: 50%;
     background-color: #fbe4df;
+    margin: 0 auto; 
 }
 
 .how-div .card-icon-img{
-    width: 50%;
-    height: 50%;
+    width: 80px; 
+    height: 80px; 
+    object-fit: contain;
 }
 
 .how-div .card-title{
